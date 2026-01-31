@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+edge_ai_env/
+
+# Data (optional – keep if dataset is large)
+data/
+
+# OS
+.DS_Store
