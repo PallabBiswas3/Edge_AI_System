@@ -28,7 +28,7 @@ def train_model(epochs=5):
 
         print(f"Epoch {epoch+1}, Loss: {running_loss/len(train_loader):.4f}")
 
-    torch.save(model.state_dict(), "baseline_model.pth")
+    torch.save(model.state_dict(), "models/baseline_model.pth")
 
 if __name__ == "__main__":
     train_model()
